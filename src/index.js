@@ -1,24 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDom from "react-dom/client";
 
-import './index.css';
+const Greetings = () => {
+  return <h1>This is not really my first component</h1>;
+};
 
-import { books } from './books';
-import Book from './Book';
+export default Greetings;
 
-function BookList() {
-  return (
-    <>
-      <h1>amazon best sellers</h1>
-      <section className='booklist'>
-        {books.map((book) => {
-          return <Book {...book} key={book.id} />;
-        })}
-      </section>
-    </>
-  );
-}
+const root = ReactDom.createRoot(document.getElementById("root"));
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(<BookList />);
+root.render(<Greetings />);
