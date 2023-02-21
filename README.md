@@ -189,11 +189,11 @@ const Greeting = () => {
   - Fragment - let's us group elements without adding extra nodes
 
 ```js
-return <React.Fragment>Example text goes here</React.Fragment>;
+<React.Fragment>Example text goes here</React.Fragment>;
 
 // shorthand
 
-return <>Example text goes here</>;
+<>Example text goes here</>;
 ```
 
 - camelCase property naming convention
