@@ -1,16 +1,13 @@
 import React from "react";
 import "../index.css";
 
-const title = "Atomic Habits";
-const author = "James Clear";
-const img = "./images/book-2.jpg";
-
-const Book = () => {
+const Book = (props) => {
+  console.log(props);
   return (
     <article className="book">
-      <img src={img} alt={title} />
-      <h2>{title}</h2>
-      <h4>{author.toUpperCase()}</h4>
+      <img src={props.img} alt={props.title} />
+      <h2>{props.title}</h2>
+      <h4>{props.author.toUpperCase()}</h4>
     </article>
   );
 };
