@@ -1,4 +1,8 @@
-# React Fundamentals Project
+# Amazon Best Sellers
+
+## React Fundamentals Project
+
+![HTML Screenshot](https://github.com/rhonnieal/react-fundamentals/blob/main/page.png?raw=true)
 
 Here we go through the fundamentals of React in-depth
 
