@@ -2,7 +2,7 @@
 
 ## React Fundamentals Project
 
-![HTML Screenshot](https://github.com/rhonnieal/react-fundamentals/blob/main/screenshot.jpg?raw=true)
+![HTML Screenshot](https://github.com/RhonnieAl/react-fundamentals/blob/main/public/images/screenshot.jpg?raw=true)
 
 Here we go through the fundamentals of React in-depth
 
